@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
-
+    
+    let coredata = CoredataManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        coredata.save()
     }
-
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        coredata.fetch()
+    }
 }
-

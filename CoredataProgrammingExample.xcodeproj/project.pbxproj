@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8816B8B33F0E6A7E2297A7CC /* Pods_MagicalRecordExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C27B6BDC3D473AE4276AE9 /* Pods_MagicalRecordExample.framework */; };
+		A419553C289E60EB009A1EEB /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419553B289E60EB009A1EEB /* CoredataManager.swift */; };
 		A46BFBED289E1DF700C852EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BFBEC289E1DF700C852EC /* AppDelegate.swift */; };
 		A46BFBEF289E1DF700C852EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BFBEE289E1DF700C852EC /* SceneDelegate.swift */; };
 		A46BFBF1289E1DF700C852EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BFBF0289E1DF700C852EC /* ViewController.swift */; };
 		A46BFBF4289E1DF700C852EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46BFBF2289E1DF700C852EC /* Main.storyboard */; };
 		A46BFBF6289E1DF900C852EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46BFBF5289E1DF900C852EC /* Assets.xcassets */; };
 		A46BFBF9289E1DF900C852EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46BFBF7289E1DF900C852EC /* LaunchScreen.storyboard */; };
+		A46BFC01289E1F1600C852EC /* ExampleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46BFC00289E1F1600C852EC /* ExampleEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A46BFBE9289E1DF700C852EC /* MagicalRecordExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08043BD284AC0C571819452D /* Pods-MagicalRecordExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordExample.release.xcconfig"; path = "Target Support Files/Pods-MagicalRecordExample/Pods-MagicalRecordExample.release.xcconfig"; sourceTree = "<group>"; };
+		69C89F86D6FDC10B34C46851 /* Pods-MagicalRecordExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordExample.debug.xcconfig"; path = "Target Support Files/Pods-MagicalRecordExample/Pods-MagicalRecordExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A419553B289E60EB009A1EEB /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
+		A46BFBE9289E1DF700C852EC /* CoredataProgrammingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoredataProgrammingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46BFBEC289E1DF700C852EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A46BFBEE289E1DF700C852EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A46BFBF0289E1DF700C852EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		A46BFBF5289E1DF900C852EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A46BFBF8289E1DF900C852EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A46BFBFA289E1DF900C852EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46BFC00289E1F1600C852EC /* ExampleEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleEntity.swift; sourceTree = "<group>"; };
+		B4C27B6BDC3D473AE4276AE9 /* Pods_MagicalRecordExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalRecordExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,31 +39,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8816B8B33F0E6A7E2297A7CC /* Pods_MagicalRecordExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830543FC97AAFE024F6F476E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C27B6BDC3D473AE4276AE9 /* Pods_MagicalRecordExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A419553A289E60C0009A1EEB /* CoredataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A46BFC00289E1F1600C852EC /* ExampleEntity.swift */,
+				A419553B289E60EB009A1EEB /* CoredataManager.swift */,
+			);
+			path = CoredataManager;
+			sourceTree = "<group>";
+		};
 		A46BFBE0289E1DF700C852EC = {
 			isa = PBXGroup;
 			children = (
-				A46BFBEB289E1DF700C852EC /* MagicalRecordExample */,
+				A46BFBEB289E1DF700C852EC /* CoredataProgrammingExample */,
 				A46BFBEA289E1DF700C852EC /* Products */,
+				BE6F8B242D413ADB91754839 /* Pods */,
+				830543FC97AAFE024F6F476E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A46BFBEA289E1DF700C852EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A46BFBE9289E1DF700C852EC /* MagicalRecordExample.app */,
+				A46BFBE9289E1DF700C852EC /* CoredataProgrammingExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A46BFBEB289E1DF700C852EC /* MagicalRecordExample */ = {
+		A46BFBEB289E1DF700C852EC /* CoredataProgrammingExample */ = {
 			isa = PBXGroup;
 			children = (
+				A419553A289E60C0009A1EEB /* CoredataManager */,
 				A46BFBEC289E1DF700C852EC /* AppDelegate.swift */,
 				A46BFBEE289E1DF700C852EC /* SceneDelegate.swift */,
 				A46BFBF0289E1DF700C852EC /* ViewController.swift */,
@@ -64,16 +93,26 @@
 				A46BFBF7289E1DF900C852EC /* LaunchScreen.storyboard */,
 				A46BFBFA289E1DF900C852EC /* Info.plist */,
 			);
-			path = MagicalRecordExample;
+			path = CoredataProgrammingExample;
+			sourceTree = "<group>";
+		};
+		BE6F8B242D413ADB91754839 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C89F86D6FDC10B34C46851 /* Pods-MagicalRecordExample.debug.xcconfig */,
+				08043BD284AC0C571819452D /* Pods-MagicalRecordExample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A46BFBE8289E1DF700C852EC /* MagicalRecordExample */ = {
+		A46BFBE8289E1DF700C852EC /* CoredataProgrammingExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A46BFBFD289E1DF900C852EC /* Build configuration list for PBXNativeTarget "MagicalRecordExample" */;
+			buildConfigurationList = A46BFBFD289E1DF900C852EC /* Build configuration list for PBXNativeTarget "CoredataProgrammingExample" */;
 			buildPhases = (
+				B659F2E2539DFCF322C30394 /* [CP] Check Pods Manifest.lock */,
 				A46BFBE5289E1DF700C852EC /* Sources */,
 				A46BFBE6289E1DF700C852EC /* Frameworks */,
 				A46BFBE7289E1DF700C852EC /* Resources */,
@@ -82,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = MagicalRecordExample;
+			name = CoredataProgrammingExample;
 			productName = MagicalRecordExample;
-			productReference = A46BFBE9289E1DF700C852EC /* MagicalRecordExample.app */;
+			productReference = A46BFBE9289E1DF700C852EC /* CoredataProgrammingExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A46BFBE4289E1DF700C852EC /* Build configuration list for PBXProject "MagicalRecordExample" */;
+			buildConfigurationList = A46BFBE4289E1DF700C852EC /* Build configuration list for PBXProject "CoredataProgrammingExample" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A46BFBE8289E1DF700C852EC /* MagicalRecordExample */,
+				A46BFBE8289E1DF700C852EC /* CoredataProgrammingExample */,
 			);
 		};
 /* End PBXProject section */
@@ -133,13 +172,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B659F2E2539DFCF322C30394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicalRecordExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A46BFBE5289E1DF700C852EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A46BFBF1289E1DF700C852EC /* ViewController.swift in Sources */,
+				A419553C289E60EB009A1EEB /* CoredataManager.swift in Sources */,
 				A46BFBED289E1DF700C852EC /* AppDelegate.swift in Sources */,
+				A46BFC01289E1F1600C852EC /* ExampleEntity.swift in Sources */,
 				A46BFBEF289E1DF700C852EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,18 +350,20 @@
 		};
 		A46BFBFE289E1DF900C852EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C89F86D6FDC10B34C46851 /* Pods-MagicalRecordExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MagicalRecordExample/Info.plist;
+				INFOPLIST_FILE = CoredataProgrammingExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,18 +379,20 @@
 		};
 		A46BFBFF289E1DF900C852EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08043BD284AC0C571819452D /* Pods-MagicalRecordExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MagicalRecordExample/Info.plist;
+				INFOPLIST_FILE = CoredataProgrammingExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,7 +409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A46BFBE4289E1DF700C852EC /* Build configuration list for PBXProject "MagicalRecordExample" */ = {
+		A46BFBE4289E1DF700C852EC /* Build configuration list for PBXProject "CoredataProgrammingExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A46BFBFB289E1DF900C852EC /* Debug */,
@@ -348,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A46BFBFD289E1DF900C852EC /* Build configuration list for PBXNativeTarget "MagicalRecordExample" */ = {
+		A46BFBFD289E1DF900C852EC /* Build configuration list for PBXNativeTarget "CoredataProgrammingExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A46BFBFE289E1DF900C852EC /* Debug */,
